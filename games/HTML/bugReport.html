@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vorm</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/brStyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+</head>
+<body>
+  <h1>Probleemi Raporteerimise Vorm</h1>
+  <form>
+    <label for="probleem">Probleem:</label>
+    <select id="probleem" name="probleem" required>
+      <option value="" disabled selected>Vali probleem</option>
+      <option value="Probleem 1">Probleem 1</option>
+      <option value="Probleem 2">Probleem 2</option>
+      <option value="Probleem 3">Probleem 3</option>
+    </select><br><br>
+
+    <label for="sammud">Sammud:</label>
+    <select id="sammud" name="sammud" required>
+      <option value="Vali sammud">Vali sammud</option>
+      <option value="Probleem 1">Sammud 1</option>
+      <option value="Probleem 2">Sammud 2</option>
+      <option value="Probleem 3">Sammud 3</option>
+    </select><br><br>
+
+    <label for="oodatudTulemus">Oodatud Tulemus:</label>
+    <select id="oodatudTulemus" name="oodatudTulemus" required>
+      <option value="Vali oodatud tulemus">Vali oodatud tulemus</option>
+      <option value="Tulemus 1">Tulemus 1</option>
+      <option value="Tulemus 2">Tulemus 2</option>
+      <option value="Tulemus 3">Tulemus 3</option>
+    </select><br><br>
+
+    <label for="parisTulemus">Päris Tulemus:</label>
+    <select id="parisTulemus" name="parisTulemus" required>
+      <option value="Vali päris tulemus">Vali päris tulemus</option>
+      <option value="Päris tulemus 1">Päris tulemus 1</option>
+      <option value="Päris tulemus 2">Päris tulemus 2</option>
+      <option value="Päris tulemus 3">Päris tulemus 3</option>
+    </select><br><br>
+
+    <input type="submit" value="Esita">
+  </form>
+  <script src="../JS/bugReport.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Pong Game</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/pgStyle.css">
+</head>
+<body>
+  <h1>Palli mäng</h1>
+  <div class="game-container">
+  <div class="canvas-and-button">  
+    <canvas id="gameCanvas" width="400" height="200"></canvas>
+    <button id="startButton" onclick="startGame()">Start</button>
+
+  </div>
+
+  <div class="text">
+    <p>
+      Tere tulemast palli mängu! Tegu on klassikalise ja lõbusa mänguga, 
+      kus sina ja arvuti kontrollite ühte liikuvat pulka ning püüate lüüa 
+      palli vastase väravasse. Sinu juhtida on punane pulk ning lüüdes pall 
+      vastase väravasse teenid punkte.
+    </p>
+    <p>
+      Mängu testides palume sul olla tähelepanelik ja jälgida, et kõik reeglid 
+      ja tegevused toimiksid õigesti. Kui märkad mängus viga, täida allpool asuvas 
+      bugireport kõik lüngad. 
+    </p>
+    <p>
+      Vajuta “Esita”
+    </p>
+  </div>
+</div>
+<div id="bugReport">
+  <object data="bugReport.html" width="600" height="400" id="bugReport"></object>
+</div>
+
+  <!-- Button to the next game -->
+  <div class="next-game-button-container">
+    <a href="../HTML/snakeGame.html" class="next-game-button">Järgmine mäng</a>
+  </div>
+  <footer>
+    <p>&copy; 2023 Geeks on Wheels Testimise Labor</p>
+</footer> 
+  <script src="../JS/pgScript.js"></script>
+</body>
+</html>

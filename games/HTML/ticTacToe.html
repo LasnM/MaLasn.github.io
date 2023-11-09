@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic-Tac-Toe Game</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/tStyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body>
+  <h1>Tic-Tac-Toe</h1>
+  <div class="container">
+    <div class="game-container">
+      <div class="board" id="board">
+        <div class="cell" onclick="makeMove(0, 0)"></div>
+        <div class="cell" onclick="makeMove(0, 1)"></div>
+        <div class="cell" onclick="makeMove(0, 2)"></div>
+        <div class="cell" onclick="makeMove(1, 0)"></div>
+        <div class="cell" onclick="makeMove(1, 1)"></div>
+        <div class="cell" onclick="makeMove(1, 2)"></div>
+        <div class="cell" onclick="makeMove(2, 0)"></div>
+        <div class="cell" onclick="makeMove(2, 1)"></div>
+        <div class="cell" onclick="makeMove(2, 2)"></div>
+      </div>
+      <p id="player-turn">X's turn</p>
+      <button id="refreshButton" onclick="refreshGame()">Alusta algusest</button>
+    </div>
+    <div id="textEditor">
+      <span id="text" contenteditable="true">
+        <p>Trips-traps-trull on lihtne, kuid põnev mäng, kus kaks mängijat vaheldumisi täidavad ruute 3x3 mängulaua kastides. Üks mängija kasutab sümbolit "X" ja teine "O". Eesmärgiks on saada esimesena horisontaalselt, vertikaalselt või diagonaalselt kolm oma sümbolit järjest.</p>
+        <p>Mängu testides palume sul olla tähelepanelik ja jälgida, et kõik reeglid ja tegevused toimiksid õigesti. Kui märkad mängus viga, täida allpool asuvas bugireport kõik lüngad.</p>
+        <p>Vajuta “Esita”</p>
+      </span>
+    </div>
+  </div>
+
+  <div id="bug-ja-nupp">
+    <div id="bugReport">
+      <object data="bugReport.html" width="100%" height="400"></object>
+    </div>
+  <div class="next-game-button-container">
+    <a href="../HTML/pongGame.html" class="next-game-button">Järgmine mäng</a>
+  </div>
+</div>
+<footer>
+  <p>&copy; 2023 Geeks on Wheels Testimise Labor</p>
+</footer> 
+  <script src="../JS/tScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center; 
+    margin-top: 30px; 
+  }
+
+  .game-description {
+    width: 70%;  /* Määrab kasti laiuse. Saate seda vajadusel muuta */
+    margin: auto;  /* Keskendab teksti horisontaalselt */
+    font-family: 'Arial', sans-serif;  /* Valib fondi, saate seda muuta */
+    line-height: 1.6;  /* Määrab reavahe */
+    font-size: 1.1rem;  /* Määrab fondi suuruse */
+    color: #333;  /* Määrab teksti värvi */
+}
+
+.game-description p {
+    margin-bottom: 16px;  /* Lisab alusele veidi ruumi */
+    text-align: center;  /* Keskendab teksti plokkide sees */
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    width: 100%; 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#värviline-kast {
+    background-color: #e3eafc;
+    margin: 30px;
+    margin-bottom: 80px;
+    padding: 30px;
+    border-radius: 20px;
+    font-family: Arial, sans-serif; /* Võid kasutada ka mõnda muud fonti */  
+}
+
+#värviline-kast h2 {
+    font-size: 24px;
+   
+    margin-bottom: 20px;
+}
+
+#värviline-kast p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    padding: 15px;
+   /* background-color: #e3eafc;*/
+   background-color: #f0f3fe;
+  
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Baasstiil nupule */
+.next-game-button {
+    background-color: #0056b3;
+    color: white; /* Teksti värv, eeldusel, et soovite valget teksti */
+    padding: 10px 20px; /* Sisemine täidis nupule */
+    text-decoration: none; /* Eemaldab alakriipsu lingilt */
+    border-radius: 15px; /* Ümardatud nurga efekt */
+    transition: background-color 0.3s; /* Lisab sujuva ülemineku hover-efekti jaoks */
+    font-weight: bold; /* Muudab teksti julgemaks */
+}
+
+/* Hover efekt nupule (tumedam taust) */
+.next-game-button:hover {
+    background-color: #004291; /* Tumedam sinine kui #0056b3 */
+}
+
+/* Paigutab nupu lehe alla keskele */
+.next-game-button-container {
+    text-align: center; /* Keset lehte */
+    margin-top: 20px; /* Adds a top margin for separation */
+}
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+}

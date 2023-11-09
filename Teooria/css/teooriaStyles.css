@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 30;
+    padding: 60;
+    justify-content: center;
+    align-items: center;
+    background-color: #5271ff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    font-size: 48px;
+    color: #0056b3;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 15px;
+
+  }
+
+  .page-title {
+    display: flex;
+    font-size: 36px;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    display: flex;
+  }
+
+  .left-column, .right-column {
+    flex: 1;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .text-content {
+    padding: 0 20px;
+    line-height: 180%;
+  }
+
+  .box-footer {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  button {
+    background-color: #5271ff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #fff;
+    align-items: right;
+  }
+
+footer {
+    margin-top: auto;
+    color: white;
+}
+
+#image-link {
+  text-decoration: none;
+  color: white;
+}
+
+.button-container {
+  display: none;
+  justify-content: flex-end; /* This will align the button to the right */
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.box-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

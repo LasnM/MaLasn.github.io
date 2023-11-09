@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+#pealkiri {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+#cookie {
+  width: 20vh;
+  height: 20vh;
+  max-width: 150px;
+  max-height: 150px;
+  background-size: cover;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/216/216341.png');
+  cursor: pointer;
+  transition: transform 0.1s;
+  z-index: 2;
+}
+
+#cookie:hover {
+  transform: scale(1.1);
+}
+
+#score {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#resetButton {
+  background-color: #5271ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 250px;
+  transition: background-color 0.3s;
+  z-index: 3;
+  margin-top: 20px;
+}
+
+#resetButton:hover {
+  background-color: #0056b3;
+}
+
+#text {
+  max-width: 500px;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#bugReport {
+  max-width: 500px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.cookie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.next-game-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.next-game-button {
+  background-color: #5271ff;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 250px;
+  transition: background-color 0.3s;
+}
+
+.next-game-button:hover {
+  background-color: #0056b3; /* Darker green on hover */
+}
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+}

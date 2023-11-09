@@ -1,0 +1,101 @@
+body{
+  background-color: white;
+  font-family: Arial, sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Added styling for the game container */
+.game-container {
+  display: flex; /* Display game and text side by side */
+  justify-content: center; /* Center horizontally within the container */
+  margin: 20px auto;
+  align-items: center; /* Center vertically within the container */
+}
+
+.canvas-and-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally within the container */
+}
+
+.gameCanvas {
+  border-radius: 5px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+.text {
+  width: 500px;
+  margin-left: 100px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#bugReport {
+width: 500px;
+margin: 20px auto;
+}
+
+#gameCanvas {
+
+  border: 4px solid black; 
+}
+
+#startButton {
+  margin-top: 10px; /* This adds 10px of space above the start button */
+  background-color: #5271ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 250px;
+  transition: background-color 0.3s;
+  z-index: 3;
+  text-align: center;
+}
+
+#startButton:hover{
+  background-color: #0056b3;
+}
+
+.next-game-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.next-game-button {
+  background-color: #5271ff;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 250px;
+  transition: background-color 0.3s;
+}
+
+.next-game-button:hover {
+  background-color: #0056b3; /* Darker green on hover */
+}
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+}

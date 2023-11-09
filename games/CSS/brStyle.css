@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fff;
+  margin: 300;
+  padding: 30;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e3eafc;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: #5271ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 300px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,76 @@
+.header-image {
+    position: relative;
+    text-align: center;
+}
+
+.text-on-image {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /*background-color: rgba(82, 113, 255, 0.7);*/
+    background-color: #5271ff;
+    /*padding-left: 180px;
+    padding-right: 180px;*/
+    width: 800px;
+  
+   
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 35px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+html, body {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.grid-item h3 {
+    cursor: pointer;
+}
+
+.larger-image {
+    width: 100%; /* See määrab pildi laiuseks 100% selle konteineri laiusest */
+    max-width: 700px; /* See määrab pildi maksimaalseks laiuseks 400px */
+}
+
+.smaller-image {
+    width: 100%;
+    max-width: 300px;
+}
+
+#pic1:hover {
+    color: #0056b3 !important;
+
+}
+
+#tekst-link {
+    text-decoration: none;
+    color: #5271ff !important;
+}
+
+#tekst-link:hover {
+    color: #0056b3 !important;
+}
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cookie Clicker</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/ccStyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body>
+  <h1>Küpsise klikker</h1>
+  <div class="container">
+    <div id="gameContainer">
+      <p id="pealkiri">Kliki küpsisele punktide teenimiseks!</p>
+      <div class="cookie-container">
+        <div id="cookie" onclick="clickCookie()"></div>
+        <p id="score">Score: <span id="scoreValue">0</span></p>
+      <button id="resetButton" onclick="resetScore()">Alusta uuesti</button>
+      </div>
+    </div>
+    <div id="textEditor">
+      <div id="text" contenteditable="true">
+        <p>Tere tulemast küpsise klikkimise maailma! Küpsise klikker on lihtne mäng, 
+          kus sinu eesmärgiks on kasvatada küpsise skoori. Sa lihtsalt klikid küpsist 
+          ja jälgid, kuidas sinu number küpsisele klikates ühe võrra kasvab. </p>
+  <p>Mängu testides palume sul olla tähelepanelik ja jälgida, et kõik reeglid ja tegevused toimiksid õigesti. Kui märkad mängus viga, täida allpool asuvas bugi raport kõik lüngad.</p>
+  <p>Vajuta “Esita”</p>
+  
+      </div>
+    </div>
+  </div>
+
+  <div id="bugReport">
+    <object data="bugReport.html" width="600" height="400" id="bugReport"></object>
+  </div>
+
+  <!-- Button to the next game -->
+<div class="next-game-button-container">
+  <a href="../HTML/ticTacToe.html" class="next-game-button">Järgmine mäng</a>
+</div>
+<footer>
+  <p>&copy; 2023 Geeks on Wheels Testimise Labor</p>
+</footer> 
+  <script src="../JS/ccScript.js"></script>
+</body>
+</html>
