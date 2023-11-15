@@ -38,7 +38,8 @@ body {
     align-items: center;
     background-color: #ffffff; /* Või mis tahes muu taustavärv, mida eelistate */
     padding: 10px;
-    border-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 #menu ul {
