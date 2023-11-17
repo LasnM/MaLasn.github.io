@@ -3,7 +3,10 @@
 <head>
   <title>Cookie Clicker</title>
   <link rel="stylesheet" type="text/css" href="../CSS/ccStyle.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/brStyle.css">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
 </head>
 <body>
   <h1>Küpsise klikker</h1>
@@ -29,8 +32,48 @@
   </div>
 
   <div id="bugReport">
-    <object data="bugReport.html" width="600" height="400" id="bugReport"></object>
-  </div>
+    <h1>Probleemi Raporteerimise Vorm</h1>
+    <form>
+      <label for="probleem">Probleem:</label>
+      <select id="probleem" name="probleem" required>
+        <option value="" disabled selected>Vali probleem</option>
+        <option value="Probleem 1">Pärast kümmet klikki arvestatakse iga järgnev klikk kahekordselt.</option>
+        <option value="Probleem 2">Klikke loeb rakendus valesti.</option>
+      </select><br><br>
+  
+      <p>Sammud:</p>
+      <label for="samm1">1.</label>
+      <select id="samm1" name="sammud" required>
+        <option value="Vali sammud" disabled selected>Vali sammud</option>
+        <option value="Samm1 1">Jälgin skoori</option>
+        <option value="Samm1 2">Klikin küpsist</option>
+      </select><br><br>
+
+      <label for="samm1">2.</label>
+      <select id="samm1" name="sammud" required>
+        <option value="Vali sammud" disabled selected>Vali sammud</option>
+        <option value="Samm2 1">Jälgin skoori</option>
+        <option value="Samm2 2">Klikin küpsist</option>
+      </select><br><br>
+  
+      <label for="oodatudTulemus">Oodatud Tulemus:</label>
+      <select id="oodatudTulemus" name="oodatudTulemus" required>
+        <option value="Vali oodatud tulemus" disabled selected>Vali oodatud tulemus</option>
+        <option value="Tulemus 1">Iga klikk anna kaks punkti</option>
+        <option value="Tulemus 2">Iga klikk annab ühe punkti</option>
+        <option value="Tulemus 3">Iga klikk annab topelt punktid</option>
+      </select><br><br>
+  
+      <label for="parisTulemus">Päris Tulemus:</label>
+      <select id="parisTulemus" name="parisTulemus" required>
+        <option value="Vali päris tulemus" disabled selected>Vali päris tulemus</option>
+        <option value="Päris tulemus 1">Kui kogutud on 10 punkti, saab iga järgneva klikiga 2 punkti.</option>
+        <option value="Päris tulemus 2">Kui kogutud on 9 punkti, saab iga järgneva klikiga 2 punkti.</option>
+        <option value="Päris tulemus 3">Kui kogutud on 10 punkti, saab iga järgneva klikiga 3 punkti.</option>
+      </select><br><br>
+  
+      <input type="submit" value="Esita">
+    </form>  </div>
 
   <!-- Button to the next game -->
 <div class="next-game-button-container">
