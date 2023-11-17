@@ -4,6 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>Pong Game</title>
   <link rel="stylesheet" type="text/css" href="../CSS/pgStyle.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/brStyle.css">
+
 </head>
 <body>
   <h1>Palli mäng</h1>
@@ -32,8 +34,56 @@
   </div>
 </div>
 <div id="bugReport">
-  <object data="bugReport.html" width="600" height="400" id="bugReport"></object>
-</div>
+  <h1>Probleemi Raporteerimise Vorm</h1>
+  <form>
+    <label for="probleem">Probleem:</label>
+    <select id="probleem" name="probleem" required>
+      <option value="" disabled selected>Vali probleem</option>
+      <option value="Probleem 1">Punase kontrolleriga mängija ei saa punkti värava korral.</option>
+      <option value="Probleem 2">Viienda värava korral arvestab mäng -1 punkt.</option>
+      <option value="Probleem 3">Kui üks pooltest on kogunud 5 punkti, kiilub mäng kinni.</option>
+    </select><br><br>
+
+    <p>Sammud:</p>
+    <label for="sammud">1.</label>
+    <select id="sammud" name="sammud" required>
+      <option value="Vali sammud" disabled selected>Vali sammud</option>
+      <option value="Samm1 1">Vajutan “start” nuppu</option>
+      <option value="Samm1 2">Juhin punast kontrollerit</option>
+    </select><br><br>
+
+    <label for="sammud">2.</label>
+    <select id="sammud" name="sammud" required>
+      <option value="Vali sammud" disabled selected>Vali sammud</option>
+      <option value="Samm2 2">Juhin punast kontrollerit</option>
+      <option value="Samm2 1">Vajutan “start” nuppu</option>
+    </select><br><br>
+
+    <label for="sammud">3.</label>
+    <select id="sammud" name="sammud" required>
+      <option value="Vali sammud" disabled selected>Vali sammud</option>
+      <option value="Samm3 2">Saavutasin 5 punkti</option>
+      <option value="Samm3 1">Arvuti saavutas 5 punkti</option>
+    </select><br><br>
+
+    <label for="oodatudTulemus">Oodatud Tulemus:</label>
+    <select id="oodatudTulemus" name="oodatudTulemus" required>
+      <option value="Vali oodatud tulemus" disabled selected>Vali oodatud tulemus</option>
+      <option value="Tulemus 1">Iga punase kontrolleri värav annab 2 punkti.</option>
+      <option value="Tulemus 2">Mäng lõpeb, kui kumbki pool on saavutanud 5 punkti. </option>
+      <option value="Tulemus 3">Mängu saab sujuvalt lõpmatuseni mängida</option>
+    </select><br><br>
+
+    <label for="parisTulemus">Päris Tulemus:</label>
+    <select id="parisTulemus" name="parisTulemus" required>
+      <option value="Vali päris tulemus" disabled selected>Vali päris tulemus</option>
+      <option value="Päris tulemus 1">Mäng kiilub kinni, kui kumbki pool on saavutanud 5 punkti.</option>
+      <option value="Päris tulemus 2">Mäng kiilub, kui mõlemad pooled on 5 punkti saavutanud.</option>
+      <option value="Päris tulemus 3">Mängu saab mängida lõpmatuseni.</option>
+    </select><br><br>
+
+    <input type="submit" value="Esita">
+  </form></div>
 
   <!-- Button to the next game -->
   <div class="next-game-button-container">
