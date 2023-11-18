@@ -4,14 +4,22 @@
   <title>Cookie Clicker</title>
   <link rel="stylesheet" type="text/css" href="../CSS/ccStyle.css">
   <link rel="stylesheet" type="text/css" href="../CSS/brStyle.css">
+  <link rel="stylesheet" type="text/css" href="../../Menu/menu.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
 </head>
 <body>
-  <div id="menu">
-    <object data="../../Menu/menu.html" width="100%" id="menu"></object>
-  </div>
+  <nav id="menu" class="menu">
+    <a href="" id="logo">
+      <img src="../../images/Gradient.png" alt="Logo">
+    </a>
+    <ul>
+      <li><a href="">ESILEHT</a></li>
+      <li><a href="">MEIST</a></li>
+      <li><a href="">KONTAKT</a></li>
+    </ul>
+  </nav>
   <h1>Küpsise klikker</h1>
   <div class="container">
     <div id="gameContainer">
@@ -22,8 +30,8 @@
       <button id="resetButton" onclick="resetScore()">Alusta uuesti</button>
       </div>
     </div>
-    <div id="textEditor">
-      <div id="text" contenteditable="true">
+    <div>
+      <div id="text">
         <p>Tere tulemast küpsise klikkimise maailma! Küpsise klikker on lihtne mäng, 
           kus sinu eesmärgiks on kasvatada küpsise skoori. Sa lihtsalt klikid küpsist 
           ja jälgid, kuidas sinu number küpsisele klikates ühe võrra kasvab. </p>
