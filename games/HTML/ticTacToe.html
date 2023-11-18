@@ -34,7 +34,87 @@
 
   <div id="bug-ja-nupp">
     <div id="bugReport">
-      <object data="bugReport.html" width="100%" height="400"></object>
+      <h1>Probleemi Raporteerimise Vorm</h1>
+  <form>
+    <label for="probleem">Probleem:</label>
+    <select id="probleem" name="probleem" required>
+      <option value="" disabled selected>Vali probleem</option>
+      <option value="Probleem 1">Mäng ei alga</option>
+      <option value="Probleem 2">Kaks korda on sama mängija käik</option>
+      <option value="Probleem 3">Kui mängija saab ülevalt paremalt algavas diagonaalis kolm järjestikust sümbolit, ei loeta seda mängus võiduks</option>
+    </select><br><br>
+
+    <p>Sammud:</p>
+
+    <label for="sammud">1.</label>
+    <select id="sammud" name="sammud" required>
+      <option value="Vali sammud">Vali samm</option>
+      <option value="Samm 1.1">Paigutan sümboli O kasti, mis ei kuulu keskele ega ülesse vasakule</option>
+      <option value="Samm 1.2">Paigutan sümboli X ülesse paremasse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli X alla vasakusse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli X keskmisesse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli O kasti, mis ei kuulu keskele ega alla paremale</option>
+
+    <!--  <option value="Probleem 3">Sammud 3</option> -->
+    </select><br><br>
+
+    <label for="sammud">2.</label>
+    <select id="sammud" name="sammud" required>
+      <option value="Samm 1.1">Paigutan sümboli O kasti, mis ei kuulu keskele ega ülesse vasakule</option>
+      <option value="Samm 1.2">Paigutan sümboli X ülesse paremasse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli X alla vasakusse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli X keskmisesse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli O kasti, mis ei kuulu keskele ega alla paremale</option>
+    </select><br><br>
+
+    <label for="sammud">3.</label>
+    <select id="sammud" name="sammud" required>
+      <option value="Vali sammud">Vali samm</option>
+      <option value="Samm 1.1">Paigutan sümboli O kasti, mis ei kuulu keskele ega ülesse vasakule</option>
+      <option value="Samm 1.2">Paigutan sümboli X ülesse paremasse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli X alla vasakusse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli X keskmisesse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli O kasti, mis ei kuulu keskele ega alla paremale</option>
+    </select><br><br>
+
+    <label for="sammud">4.</label>
+    <select id="sammud" name="sammud" required>
+      <option value="Vali sammud">Vali samm</option>
+      <option value="Samm 1.1">Paigutan sümboli O kasti, mis ei kuulu keskele ega ülesse vasakule</option>
+      <option value="Samm 1.2">Paigutan sümboli X ülesse paremasse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli X alla vasakusse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli X keskmisesse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli O kasti, mis ei kuulu keskele ega alla paremale</option>
+    </select><br><br>
+
+    <label for="sammud">5.</label>
+    <select id="sammud" name="sammud" required>
+      <option value="Vali sammud">Vali samm</option>
+      <option value="Samm 1.1">Paigutan sümboli O kasti, mis ei kuulu keskele ega ülesse vasakule</option>
+      <option value="Samm 1.2">Paigutan sümboli X ülesse paremasse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli X alla vasakusse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli X keskmisesse kasti</option>
+      <option value="Samm 1.2">Paigutan sümboli O kasti, mis ei kuulu keskele ega alla paremale</option>
+    </select><br><br>
+
+    <label for="oodatudTulemus">Oodatud Tulemus:</label>
+    <select id="oodatudTulemus" name="oodatudTulemus" required>
+      <option value="Vali oodatud tulemus">Vali oodatud tulemus</option>
+      <option value="Päris tulemus 1">Mängu saab võita ainult vertikaalselt</option>
+      <option value="Päris tulemus 2">Mäng on võidetud, kui üks mängijatest saavutab 3 järjestikust sümbolit horisontaalselt, vertikaalselt või diagonaalselt</option>
+      <option value="Päris tulemus 3">Mängu saab võita ainult horisontaalselt</option>
+    </select><br><br>
+
+    <label for="parisTulemus">Päris Tulemus:</label>
+    <select id="parisTulemus" name="parisTulemus" required>
+      <option value="Vali päris tulemus">Vali päris tulemus</option>
+      <option value="Päris tulemus 1">Mäng ei tuvasta võitu, kui on kogutud 3 sümbolit järjest, üleval paremal algavas diagonaalis</option>
+      <option value="Päris tulemus 2">Mäng tuvastab võidu vaid ühe ülevalt paremalt algava diagonaali korral</option>
+      <option value="Päris tulemus 3">Mäng ei tuvasta võite</option>
+    </select><br><br>
+
+    <input type="submit" value="Esita">
+  </form>
     </div>
   <div class="next-game-button-container">
     <a href="../HTML/pongGame.html" class="next-game-button">Järgmine mäng</a>
