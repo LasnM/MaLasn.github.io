@@ -179,22 +179,22 @@ canvas.height = 400;
         probleemSelect.style.borderColor = "";
       }
   
-      var samm1Select = document.getElementById("samm1");
+      var samm1Select = document.getElementById("sammud1"); // Parandatud ID
       if (samm1Select.value !== "Samm1 1") {
         samm1Select.style.borderColor = "red";
       } else {
         samm1Select.style.borderColor = "";
       }
   
-      var samm2Select = document.getElementById("samm2");
+      var samm2Select = document.getElementById("sammud2"); // Parandatud ID
       if (samm2Select.value !== "Samm2 2") {
         samm2Select.style.borderColor = "red";
       } else {
         samm2Select.style.borderColor = "";
       }
   
-      var samm3Select = document.getElementById("samm3");
-      if (samm3Select.value !== "Samm3 4") {
+      var samm3Select = document.getElementById("sammud3"); // Parandatud ID
+      if (!õigedVastused3.includes(samm3Select.value)) { // Oletame, et "Samm3 4" on õige vastus
         samm3Select.style.borderColor = "red";
       } else {
         samm3Select.style.borderColor = "";
@@ -214,7 +214,7 @@ canvas.height = 400;
         parisTulemusSelect.style.borderColor = "";
       }
     });
-  });
+  });  
   
   
   
