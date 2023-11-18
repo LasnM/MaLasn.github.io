@@ -1,7 +1,7 @@
 
 .menu_block  {
 	margin-right: 4px;
-	z-index: 999;
+	/*z-index: 999;*/
 	position: relative;
 	background: url(../images/menu_bg.png) 0 0 repeat-x #d73430;
 	margin-bottom: 68px;
@@ -28,8 +28,8 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	display: block;
 	position: relative;
 	float: left;
-	width: 20%;
-	font-size: 18px;
+	width: 16%;
+	font-size: 16px;
 	text-transform: uppercase;
 	line-height: 20px;
 
