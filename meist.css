@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+   /* background: #f0f2f5; */
+
+main {
+    padding: 20px;
+    margin-left: auto; /* Centering the main content */
+    margin-right: auto;
+    max-width: 800px; /* Adjust the width as necessary */
+    line-height: 1.5;
+   
+}
+
+.meist {
+    text-align: left;
+}
+
+h1 {
+    color: #5271ff; /* Your color for headings */
+    text-align: center;
+}
+
+p {
+    color: #333; /* Standard text color */
+}
+
+.text {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.name {
+    font-weight: 600;
+    color: #5271ff;
+}
+
+.images {
+    display: flex; /* This will align images side by side */
+    justify-content: space-around; /* This will space out the images nicely */
+    margin-top: 20px;
+}
+
+.image-container {
+    text-align: center; /* Center the text below the images */
+    margin: 0 10px; /* Add some space between the image containers */
+}
+
+.medium-image {
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain the aspect ratio of the images */
+    margin-bottom: 8px;
+    border-radius: 15px; /* Remove if you don't want a border or set a border style */
+}
+
+#kontaktInfo {
+    margin-top: 50px;
+}
+
+.E-post {
+    margin-bottom: 30px;
+}
+
+.contact-header {
+    margin-bottom: 30px;
+}
+
+iframe {
+    width: 400px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* .footer-content {
+    position: relative;
+}
+
+footer {
+
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
