@@ -116,3 +116,60 @@ function updateGameArea() {
 document.addEventListener('keydown', changeDirection);
 
 const gameInterval = setInterval(updateGameArea, 100);
+
+// br valideerimine
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelector("form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Peatab vormi esitamise
+
+    // Kontrolli, kas valitud probleem on õige
+    var probleemSelect = document.getElementById("probleem");
+    if (probleemSelect.value !== "Probleem 1") {
+      // Kui valik on vale, muuda piir punaseks
+      probleemSelect.style.borderColor = "red";
+    } else {
+      // Kui valik on õige, eemalda punane piir
+      probleemSelect.style.borderColor = "";
+    }
+
+    // Sarnased kontrollid teiste valikute jaoks...
+
+    var probleemSelect = document.getElementById("sammud1");
+    if (probleemSelect.value !== "Samm 1.1") {
+      // Kui valik on vale, muuda piir punaseks
+      probleemSelect.style.borderColor = "red";
+    } else {
+      // Kui valik on õige, eemalda punane piir
+      probleemSelect.style.borderColor = "";
+    }
+
+    var probleemSelect = document.getElementById("sammud2");
+    if (probleemSelect.value !== "Samm 2.2") {
+      // Kui valik on vale, muuda piir punaseks
+      probleemSelect.style.borderColor = "red";
+    } else {
+      // Kui valik on õige, eemalda punane piir
+      probleemSelect.style.borderColor = "";
+    }
+
+    var probleemSelect = document.getElementById("oodatudTulemus");
+    if (probleemSelect.value !== "Tulemus 3") {
+      // Kui valik on vale, muuda piir punaseks
+      probleemSelect.style.borderColor = "red";
+    } else {
+      // Kui valik on õige, eemalda punane piir
+      probleemSelect.style.borderColor = "";
+    }
+
+    var probleemSelect = document.getElementById("parisTulemus");
+    if (probleemSelect.value !== "Päris tulemus 2") {
+      // Kui valik on vale, muuda piir punaseks
+      probleemSelect.style.borderColor = "red";
+    } else {
+      // Kui valik on õige, eemalda punane piir
+      probleemSelect.style.borderColor = "";
+    }
+
+  });
+});

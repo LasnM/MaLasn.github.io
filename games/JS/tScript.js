@@ -66,3 +66,82 @@ function refreshGame() {
   // Võimaldage uuesti klikkida
   boardElement.style.pointerEvents = 'auto';
 }
+
+// br valideerimine
+
+const õigedVastused1 = ["Samm 1.2", "Samm 1.3", "Samm 1.4"];
+const õigedVastused3 = ["Samm 3.2", "Samm 3.3", "Samm 3.4"];
+const õigedVastused5 = ["Samm 5.2", "Samm 5.3", "Samm 5.4"];
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelector("form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Peatab vormi esitamise
+
+
+    // Kontrolli, kas valitud probleem on õige
+    var probleemSelect = document.getElementById("probleem");
+    if (probleemSelect.value !== "Probleem 3") {
+      // Kui valik on vale, muuda piir punaseks
+      probleemSelect.style.borderColor = "red";
+    } else {
+      // Kui valik on õige, eemalda punane piir
+      probleemSelect.style.borderColor = "";
+    }
+
+     // Samm 1
+     var sammud1Select = document.getElementById("sammud1");
+     if (!õigedVastused1.includes(sammud1Select.value)) {
+       sammud1Select.style.borderColor = "red";
+     } else {
+       sammud1Select.style.borderColor = "";
+     }
+ 
+     // Samm 2
+     var sammud2Select = document.getElementById("sammud2");
+     if (sammud2Select.value !== "Samm 2.1") {
+       sammud2Select.style.borderColor = "red";
+     } else {
+       sammud2Select.style.borderColor = "";
+     }
+ 
+     // Samm 3
+     var sammud3Select = document.getElementById("sammud3");
+     if (!õigedVastused3.includes(sammud3Select.value)) {
+       sammud3Select.style.borderColor = "red";
+     } else {
+       sammud3Select.style.borderColor = "";
+     }
+ 
+     // Samm 4
+     var sammud4Select = document.getElementById("sammud4");
+     if (sammud4Select.value !== "Samm 4.1") {
+       sammud4Select.style.borderColor = "red";
+     } else {
+       sammud4Select.style.borderColor = "";
+     }
+ 
+     // Samm 5
+     var sammud5Select = document.getElementById("sammud5");
+     if (!õigedVastused5.includes(sammud5Select.value)) {
+       sammud5Select.style.borderColor = "red";
+     } else {
+       sammud5Select.style.borderColor = "";
+     }
+ 
+     // Oodatud Tulemus
+     var oodatudSelect = document.getElementById("oodatudTulemus");
+     if (oodatudSelect.value !== "Oodatud tulemus 2") {
+       oodatudSelect.style.borderColor = "red";
+     } else {
+       oodatudSelect.style.borderColor = "";
+     }
+ 
+     // Päris Tulemus
+     var parisSelect = document.getElementById("parisTulemus");
+     if (parisSelect.value !== "Päris tulemus 1") {
+       parisSelect.style.borderColor = "red";
+     } else {
+       parisSelect.style.borderColor = "";
+     }
+   });
+ });
