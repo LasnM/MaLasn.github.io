@@ -3,6 +3,7 @@
 <head>
   <title>Snake Game</title>
   <link rel="stylesheet" type="text/css" href="../CSS/sgStyle.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/brStyle.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 <body>
@@ -22,7 +23,51 @@
   </div>
   <div class="bug-and-button-container">
     <div id="bugReport">
-      <object data="bugReport.html" width="100%" height="400"></object>
+      <h1>Probleemi Raporteerimise Vorm</h1>
+  <form>
+    <label for="probleem">Probleem:</label>
+    <select id="probleem" name="probleem" required>
+      <option value="" disabled selected>Vali probleem</option>
+      <option value="Probleem 1">Uss ei sure, kui liigub enda pihta</option>
+      <option value="Probleem 2">Uss ei söö kuuendat toitu</option>
+      <option value="Probleem 3">Uss kogub iga teise toiduga topelt punktid</option>
+    </select><br><br>
+
+    <p>Sammud:</p>
+
+    <label for="sammud">1.</label>
+    <select id="sammud" name="sammud" required>
+      <option value="Vali sammud">Vali samm</option>
+      <option value="Samm 1.1">Kasvatan ussi liikudes üle toidu</option>
+      <option value="Samm 1.2">Juhin ussi enda vastu</option>
+    <!--  <option value="Probleem 3">Sammud 3</option> -->
+    </select><br><br>
+
+    <label for="sammud">2.</label>
+    <select id="sammud" name="sammud" required>
+      <option value="Vali sammud">Vali samm</option>
+      <option value="Samm 2.1">Kasvatan ussi liikudes üle toidu</option>
+      <option value="Samm 2.2">Juhin ussi enda vastu</option>
+    </select><br><br>
+
+    <label for="oodatudTulemus">Oodatud Tulemus:</label>
+    <select id="oodatudTulemus" name="oodatudTulemus" required>
+      <option value="Vali oodatud tulemus">Vali oodatud tulemus</option>
+      <option value="Tulemus 1">Mäng on võidetud, kui uss kogub 15 punkti</option>
+      <option value="Tulemus 2">Uss kogub topelt punkte pärast kümnendat toitu</option>
+      <option value="Tulemus 3">Uss sureb kui läheb enda pihta</option>
+    </select><br><br>
+
+    <label for="parisTulemus">Päris Tulemus:</label>
+    <select id="parisTulemus" name="parisTulemus" required>
+      <option value="Vali päris tulemus">Vali päris tulemus</option>
+      <option value="Päris tulemus 1">Uss ei kogu punkte toitu süües</option>
+      <option value="Päris tulemus 2">Uss ei sure ära kui ta läheb enda pihta</option>
+      <option value="Päris tulemus 3">Toit ei muuda asukohta</option>
+    </select><br><br>
+
+    <input type="submit" value="Esita">
+  </form>
     </div>
     <div class="finish-button-container">
       <a href="../HTML/finish.html" class="finish-button" id="finish-button">Lõpeta</a>
