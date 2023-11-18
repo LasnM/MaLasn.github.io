@@ -163,4 +163,59 @@ canvas.height = 400;
   }
     }
 
+
+  // br valideerimine
+
+  const õigedVastused3 = ["Samm3 1", "Samm3 2"];
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector("form").addEventListener("submit", function(event) {
+      event.preventDefault(); // Peatab vormi esitamise
+  
+      var probleemSelect = document.getElementById("probleem");
+      if (probleemSelect.value !== "Probleem 3") {
+        probleemSelect.style.borderColor = "red";
+      } else {
+        probleemSelect.style.borderColor = "";
+      }
+  
+      var samm1Select = document.getElementById("samm1");
+      if (samm1Select.value !== "Samm1 1") {
+        samm1Select.style.borderColor = "red";
+      } else {
+        samm1Select.style.borderColor = "";
+      }
+  
+      var samm2Select = document.getElementById("samm2");
+      if (samm2Select.value !== "Samm2 2") {
+        samm2Select.style.borderColor = "red";
+      } else {
+        samm2Select.style.borderColor = "";
+      }
+  
+      var samm3Select = document.getElementById("samm3");
+      if (samm3Select.value !== "Samm3 4") {
+        samm3Select.style.borderColor = "red";
+      } else {
+        samm3Select.style.borderColor = "";
+      }
+  
+      var oodatudTulemusSelect = document.getElementById("oodatudTulemus");
+      if (oodatudTulemusSelect.value !== "Tulemus 3") {
+        oodatudTulemusSelect.style.borderColor = "red";
+      } else {
+        oodatudTulemusSelect.style.borderColor = "";
+      }
+  
+      var parisTulemusSelect = document.getElementById("parisTulemus");
+      if (parisTulemusSelect.value !== "Päris tulemus 1") {
+        parisTulemusSelect.style.borderColor = "red";
+      } else {
+        parisTulemusSelect.style.borderColor = "";
+      }
+    });
+  });
+  
+  
+  
     
