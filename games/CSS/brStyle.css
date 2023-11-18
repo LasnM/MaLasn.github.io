@@ -7,13 +7,14 @@ body {
 }
 
 form {
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
   padding: 20px;
   background-color: #e3eafc;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
 input[type="submit"] {
@@ -27,4 +28,9 @@ input[type="submit"] {
 
 input[type=submit]:hover {
   background-color: #0056b3;
+}
+
+.brLabel {
+  display: block;
+  padding-bottom: 5px !important;
 }
