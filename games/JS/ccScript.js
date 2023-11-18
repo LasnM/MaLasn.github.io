@@ -23,3 +23,47 @@ let score = 0;
     
     // Call this function when the cookie clicker game loads
     loadBugReport();
+
+    // br valideerimine
+
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelector("form").addEventListener("submit", function(event) {
+        event.preventDefault(); // Peatab vormi esitamise
+    
+        var probleemSelect = document.getElementById("probleem");
+        if (probleemSelect.value !== "Probleem 1") {
+          probleemSelect.style.borderColor = "red";
+        } else {
+          probleemSelect.style.borderColor = "";
+        }
+    
+        var sammud1Select = document.getElementById("samm1");
+        if (sammud1Select.value !== "Samm1 2") {
+          sammud1Select.style.borderColor = "red";
+        } else {
+          sammud1Select.style.borderColor = "";
+        }
+    
+        var sammud2Select = document.getElementById("samm2");
+        if (sammud2Select.value !== "Samm2 1") {
+          sammud2Select.style.borderColor = "red";
+        } else {
+          sammud2Select.style.borderColor = "";
+        }
+    
+        var oodatudTulemusSelect = document.getElementById("oodatudTulemus");
+        if (oodatudTulemusSelect.value !== "Tulemus 2" && oodatudTulemusSelect.value !== "Vali oodatud tulemus") {
+          oodatudTulemusSelect.style.borderColor = "red";
+        } else {
+          oodatudTulemusSelect.style.borderColor = "";
+        }
+    
+        var parisTulemusSelect = document.getElementById("parisTulemus");
+        if (parisTulemusSelect.value !== "Päris tulemus 1" && parisTulemusSelect.value !== "Vali päris tulemus") {
+          parisTulemusSelect.style.borderColor = "red";
+        } else {
+          parisTulemusSelect.style.borderColor = "";
+        }
+      });
+    });
+    
