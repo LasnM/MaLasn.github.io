@@ -30,6 +30,7 @@
 
 body {
     margin: 0;
+    font-weight: bold;
     font-family: Arial, sans-serif; /* Või mis tahes muu font, mida eelistate */
 }
 
