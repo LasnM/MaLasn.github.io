@@ -1,10 +1,10 @@
 body {
   background-color: #fff;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   margin: 0;
-  flex-direction: column;
+  /*flex-direction: column;*/
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -95,4 +95,13 @@ element_selector:focus {
 footer {
   text-align: center;
   padding-top: 30px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff; /* Või mis tahes muu taustavärv, mida eelistate */
+  padding: 10px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
