@@ -19,7 +19,7 @@ main {
     text-align: left;
 }
 
-h1 {
+h1, h2 {
     color: #5271ff; /* Your color for headings */
     text-align: center;
 }
@@ -58,6 +58,9 @@ p {
 
 #kontaktInfo {
     margin-top: 50px;
+    display: block;
+    
+    text-align: center;
 }
 
 .E-post {
@@ -70,6 +73,7 @@ p {
 
 iframe {
     width: 400px;
+    border-radius: 15px;
 }
 
 footer {
