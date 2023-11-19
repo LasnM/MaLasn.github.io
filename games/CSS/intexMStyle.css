@@ -48,6 +48,7 @@ section {
 
 #värviline-kast {
     background-color: #e3eafc;
+    width: max-content;
     margin: 30px;
     margin-bottom: 80px;
     padding: 30px;
