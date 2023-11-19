@@ -49,10 +49,11 @@ section {
 #värviline-kast {
     background-color: #e3eafc;
     width: max-content;
-    margin: 30px;
+    margin: 30px auto;
     margin-bottom: 80px;
     padding: 30px;
     border-radius: 20px;
+    display: block;
     font-family: Arial, sans-serif; /* Võid kasutada ka mõnda muud fonti */  
 }
 
