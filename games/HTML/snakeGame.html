@@ -17,7 +17,7 @@
       <p id="score">Score: <span id="scoreValue">0</span></p>
     </div>
     <div id="textEditor">
-      <div id="text" contenteditable="true">
+      <div id="text">
         <p>Ussimäng on põnev ja lihtne mäng, kus sinu eesmärgiks on juhtida ussi läbi mänguvälja, kogudes punkte ja kasvades järjest pikemaks. Uss kasvab suuremaks, kui liigud üle “toidu”, mida tähistab punane kastike. Mäng lõppeb, kui uss läheb endale pihta.</p>
         <p>Mängu testides palume sul olla tähelepanelik ja jälgida, et kõik reeglid ja tegevused toimiksid õigesti. Kui märkad mängus viga, täida allpool asuvas bugireport kõik lüngad.</p>
         <p>Vajuta “Esita”</p>
@@ -75,8 +75,10 @@
       <option value="Päris tulemus 3">Toit ei muuda asukohta</option>
     </select><br><br>
 
-    <input type="submit" value="Esita">
-  </form>
+    <div class="esita-button">
+      <input type="submit" value="Esita">
+    </div>
+    </form>
     </div>
     <div class="finish-button-container">
       <a href="../HTML/finish.html" class="finish-button" id="finish-button">Lõpeta</a>
