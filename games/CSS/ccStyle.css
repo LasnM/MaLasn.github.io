@@ -104,7 +104,8 @@ h1 {
 
 .Kontrolli-button {
   display: grid;
-  place-items: center;
+  place-items: center !important;
+  align-items: center;
 }
 
 .next-game-button-container {
