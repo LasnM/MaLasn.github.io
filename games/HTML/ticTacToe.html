@@ -38,7 +38,7 @@
       <button id="refreshButton" onclick="refreshGame()">Alusta algusest</button>
     </div>
     <div id="textEditor">
-      <span id="text" contenteditable="true">
+      <span id="text">
         <p>Trips-traps-trull on lihtne, kuid põnev mäng, kus kaks mängijat vaheldumisi täidavad ruute 3x3 mängulaua kastides. Üks mängija kasutab sümbolit "X" ja teine "O". Eesmärgiks on saada esimesena horisontaalselt, vertikaalselt või diagonaalselt kolm oma sümbolit järjest.</p>
         <p>Mängu testides palume sul olla tähelepanelik ja jälgida, et kõik reeglid ja tegevused toimiksid õigesti. Kui märkad mängus viga, täida allpool asuvas bugireport kõik lüngad.</p>
         <p>Vajuta “Esita”</p>
@@ -123,7 +123,9 @@
       <option value="Päris tulemus 3">Mäng ei tuvasta võite</option>
     </select><br><br>
 
-    <input type="submit" value="Esita">
+    <div class="esita-button">
+      <input type="submit" value="Esita">
+    </div>
   </form>
     </div>
   <div class="next-game-button-container">

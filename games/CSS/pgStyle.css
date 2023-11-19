@@ -44,6 +44,7 @@ h1 {
   margin-left: 100px;
   font-family: Arial, sans-serif;
   line-height: 1.5;
+  text-align: left;
 }
 
 #bugReport {
@@ -73,6 +74,11 @@ margin: 20px auto;
 
 #startButton:hover{
   background-color: #0056b3;
+}
+
+.esita-button {
+  display: grid;
+  place-items: center;
 }
 
 .next-game-button-container {
