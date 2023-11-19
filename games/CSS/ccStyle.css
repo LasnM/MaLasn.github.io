@@ -93,7 +93,7 @@ h1 {
   justify-content: center;
   height: 100vh;
   margin: auto;
-  width: fit-content;
+  width: max-content;
 }
 
 .cookie-container {
