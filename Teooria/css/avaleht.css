@@ -140,3 +140,8 @@ button:hover {
         width: 100%;
     }
 }
+
+.footer-content {
+    text-align: center;
+    color: white;
+  }
