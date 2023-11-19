@@ -22,7 +22,7 @@ function makeMove(row, col) {
       messageElement.innerText = "It's a draw!";
     } else {
       currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
-      messageElement.innerText = `${currentPlayer}'s turn`;
+      messageElement.innerText = `Mängija ${currentPlayer} kord`;
     }
   }
 }
@@ -59,6 +59,9 @@ function refreshGame() {
       cell.innerText = '';
     }
   }
+
+  // Lähtesta praegune mängija 'X'-iks
+  currentPlayer = 'X';
 
   // Lähtesta teade mängijate vahetamiseks
   messageElement.innerText = `${currentPlayer}'s turn`;

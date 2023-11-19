@@ -60,7 +60,6 @@ h1 {
   text-decoration: none;
   border-radius: 20px;
   transition: background-color 0.3s;
-  font-weight: bold;
   border-width: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -76,7 +75,8 @@ h1 {
   font-family: Arial, sans-serif;
   margin-right: 50px;
   margin-left: 40px;
- 
+  line-height: 1.5;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -84,6 +84,7 @@ h1 {
 
 #bugReport {
 padding: 0px;
+margin-bottom: 40px;
 }
 
 
@@ -127,7 +128,7 @@ html, body {
   overflow: auto;
 }
 
-.esita-button {
+.kontrolli-button {
   display: grid;
   place-items: center;
 }
@@ -141,9 +142,9 @@ html, body {
   text-decoration: none;
   border-radius: 20px;
   transition: background-color 0.3s;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .next-game-button:hover {
