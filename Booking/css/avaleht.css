@@ -32,11 +32,23 @@ section {
 
 #värviline-kast {
     background-color: #e3eafc;
+    margin: 30px auto; /* Muudetud, et lisada automaatsed marginaalid vasakule ja paremale */
+    margin-bottom: 80px;
+    padding: 30px;
+    border-radius: 20px;
+    width: max-content;
+    display: block;
+    font-family: Arial, sans-serif;
+
+    /* background-color: #e3eafc;
     margin: 30px;
     margin-bottom: 80px;
     padding: 30px;
     border-radius: 20px;
-    font-family: Arial, sans-serif; /* Võid kasutada ka mõnda muud fonti */  
+    width: max-content;
+    display: block;
+    align-items: center;
+    font-family: Arial, sans-serif; */ 
 }
 
 #värviline-kast h2 {
@@ -82,4 +94,5 @@ section {
 footer {
     text-align: center;
     padding-top: 30px;
+    margin-top: auto; /* See asetab jaluse lehekülje allosasse */
 }
