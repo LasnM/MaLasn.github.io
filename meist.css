@@ -19,6 +19,10 @@ main {
     text-align: left;
 }
 
+h1 {
+    margin-bottom: 40px;
+}
+
 h1, h2 {
     color: #5271ff; /* Your color for headings */
     text-align: center;
