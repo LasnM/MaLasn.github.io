@@ -16,6 +16,7 @@ body {
   margin: 0;
   padding: 20px;
   min-height: 100vh;
+  color: #333;
 }
 
 h1 {
@@ -102,10 +103,10 @@ h1 {
   align-items: center;
 }
 
-.Kontrolli-button {
+.kontrolli-button {
   display: grid;
   place-items: center !important;
-  align-items: center;
+  align-items: center !important;
 }
 
 .next-game-button-container {
