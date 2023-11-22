@@ -7,7 +7,7 @@ body {
 }
 
 form {
-  width: 400px;
+  width: max-content;
   margin: 0 auto;
   padding: 20px;
   background-color: #e3eafc;
