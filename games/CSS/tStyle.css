@@ -19,6 +19,7 @@ body {
   gap: 2px;
   width: 306px;
   margin-left: 70px;
+  align-items: center;
 }
 
 .game-container {
@@ -38,6 +39,9 @@ body {
   text-align: center;
   border: 1px solid #000;
   cursor: pointer;
+  display: flex;        /* Uus stiil */
+  justify-content: center; /* Horisontaalne keskendamine */
+  align-items: center;  /* Vertikaalne keskendamine */
 }
 
 .cell:hover {
