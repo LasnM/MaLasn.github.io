@@ -176,42 +176,42 @@ canvas.height = 400;
       if (probleemSelect.value !== "Probleem 3") {
         probleemSelect.style.borderColor = "red";
       } else {
-        probleemSelect.style.borderColor = "";
+        probleemSelect.style.borderColor = "green";
       }
   
       var samm1Select = document.getElementById("sammud1"); // Parandatud ID
       if (samm1Select.value !== "Samm1 1") {
         samm1Select.style.borderColor = "red";
       } else {
-        samm1Select.style.borderColor = "";
+        samm1Select.style.borderColor = "green";
       }
   
       var samm2Select = document.getElementById("sammud2"); // Parandatud ID
       if (samm2Select.value !== "Samm2 2") {
         samm2Select.style.borderColor = "red";
       } else {
-        samm2Select.style.borderColor = "";
+        samm2Select.style.borderColor = "green";
       }
   
       var samm3Select = document.getElementById("sammud3"); // Parandatud ID
       if (!õigedVastused3.includes(samm3Select.value)) { // Oletame, et "Samm3 4" on õige vastus
         samm3Select.style.borderColor = "red";
       } else {
-        samm3Select.style.borderColor = "";
+        samm3Select.style.borderColor = "green";
       }
   
       var oodatudTulemusSelect = document.getElementById("oodatudTulemus");
       if (oodatudTulemusSelect.value !== "Tulemus 3") {
         oodatudTulemusSelect.style.borderColor = "red";
       } else {
-        oodatudTulemusSelect.style.borderColor = "";
+        oodatudTulemusSelect.style.borderColor = "green";
       }
   
       var parisTulemusSelect = document.getElementById("parisTulemus");
       if (parisTulemusSelect.value !== "Päris tulemus 1") {
         parisTulemusSelect.style.borderColor = "red";
       } else {
-        parisTulemusSelect.style.borderColor = "";
+        parisTulemusSelect.style.borderColor = "green";
       }
     });
   });  

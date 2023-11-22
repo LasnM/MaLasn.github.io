@@ -34,35 +34,35 @@ let score = 0;
         if (probleemSelect.value !== "Probleem 1") {
           probleemSelect.style.borderColor = "red";
         } else {
-          probleemSelect.style.borderColor = "";
+          probleemSelect.style.borderColor = "green";
         }
     
         var sammud1Select = document.getElementById("samm1");
-        if (sammud1Select.value !== "Samm1 2") {
+        if (sammud1Select.value !== "Samm1 2" ) {
           sammud1Select.style.borderColor = "red";
         } else {
-          sammud1Select.style.borderColor = "";
+          sammud1Select.style.borderColor = "green";
         }
     
         var sammud2Select = document.getElementById("samm2");
-        if (sammud2Select.value !== "Samm2 1") {
+        if (sammud2Select.value !== "Samm2 1" ) {
           sammud2Select.style.borderColor = "red";
         } else {
-          sammud2Select.style.borderColor = "";
+          sammud2Select.style.borderColor = "green";
         }
     
         var oodatudTulemusSelect = document.getElementById("oodatudTulemus");
-        if (oodatudTulemusSelect.value !== "Tulemus 2" && oodatudTulemusSelect.value !== "Vali oodatud tulemus") {
+        if (oodatudTulemusSelect.value !== "Tulemus 2" ) {
           oodatudTulemusSelect.style.borderColor = "red";
         } else {
-          oodatudTulemusSelect.style.borderColor = "";
+          oodatudTulemusSelect.style.borderColor = "green";
         }
     
         var parisTulemusSelect = document.getElementById("parisTulemus");
-        if (parisTulemusSelect.value !== "Päris tulemus 1" && parisTulemusSelect.value !== "Vali päris tulemus") {
+        if (parisTulemusSelect.value !== "Päris tulemus 1" ) {
           parisTulemusSelect.style.borderColor = "red";
         } else {
-          parisTulemusSelect.style.borderColor = "";
+          parisTulemusSelect.style.borderColor = "green";
         }
       });
     });

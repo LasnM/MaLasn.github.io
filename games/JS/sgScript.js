@@ -135,40 +135,40 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Sarnased kontrollid teiste valikute jaoks...
 
-    var probleemSelect = document.getElementById("sammud1");
-    if (probleemSelect.value !== "Samm 1.1") {
+    var samm1Select = document.getElementById("sammud1");
+    if (samm1Select.value !== "Samm 1.1") {
       // Kui valik on vale, muuda piir punaseks
-      probleemSelect.style.borderColor = "red";
+      samm1Select.style.borderColor = "red";
     } else {
       // Kui valik on õige, eemalda punane piir
-      probleemSelect.style.borderColor = "";
+      samm1Select.style.borderColor = "";
     }
 
-    var probleemSelect = document.getElementById("sammud2");
-    if (probleemSelect.value !== "Samm 2.2") {
+    var samm2Select = document.getElementById("sammud2");
+    if (samm2Select.value !== "Samm 2.2") {
       // Kui valik on vale, muuda piir punaseks
-      probleemSelect.style.borderColor = "red";
+      samm2Select.style.borderColor = "red";
     } else {
       // Kui valik on õige, eemalda punane piir
-      probleemSelect.style.borderColor = "";
+      samm2Select.style.borderColor = "";
     }
 
-    var probleemSelect = document.getElementById("oodatudTulemus");
-    if (probleemSelect.value !== "Tulemus 3") {
+    var oodatudSelect = document.getElementById("oodatudTulemus");
+    if (oodatudSelect.value !== "Tulemus 3") {
       // Kui valik on vale, muuda piir punaseks
-      probleemSelect.style.borderColor = "red";
+      oodatudSelect.style.borderColor = "red";
     } else {
       // Kui valik on õige, eemalda punane piir
-      probleemSelect.style.borderColor = "";
+      oodatudSelect.style.borderColor = "";
     }
 
-    var probleemSelect = document.getElementById("parisTulemus");
-    if (probleemSelect.value !== "Päris tulemus 2") {
+    var parisSelect = document.getElementById("parisTulemus");
+    if (parisSelect.value !== "Päris tulemus 2") {
       // Kui valik on vale, muuda piir punaseks
-      probleemSelect.style.borderColor = "red";
+      parisSelect.style.borderColor = "red";
     } else {
       // Kui valik on õige, eemalda punane piir
-      probleemSelect.style.borderColor = "";
+      parisSelect.style.borderColor = "";
     }
 
   });

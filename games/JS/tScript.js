@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
       probleemSelect.style.borderColor = "red";
     } else {
       // Kui valik on õige, eemalda punane piir
-      probleemSelect.style.borderColor = "";
+      probleemSelect.style.borderColor = "green";
     }
 
      // Samm 1
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
      if (!õigedVastused1.includes(sammud1Select.value)) {
        sammud1Select.style.borderColor = "red";
      } else {
-       sammud1Select.style.borderColor = "";
+       sammud1Select.style.borderColor = "green";
      }
  
      // Samm 2
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function() {
      if (sammud2Select.value !== "Samm 2.1") {
        sammud2Select.style.borderColor = "red";
      } else {
-       sammud2Select.style.borderColor = "";
+       sammud2Select.style.borderColor = "green";
      }
  
      // Samm 3
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
      if (!õigedVastused3.includes(sammud3Select.value)) {
        sammud3Select.style.borderColor = "red";
      } else {
-       sammud3Select.style.borderColor = "";
+       sammud3Select.style.borderColor = "green";
      }
  
      // Samm 4
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
      if (sammud4Select.value !== "Samm 4.1") {
        sammud4Select.style.borderColor = "red";
      } else {
-       sammud4Select.style.borderColor = "";
+       sammud4Select.style.borderColor = "green";
      }
  
      // Samm 5
@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function() {
      if (!õigedVastused5.includes(sammud5Select.value)) {
        sammud5Select.style.borderColor = "red";
      } else {
-       sammud5Select.style.borderColor = "";
+       sammud5Select.style.borderColor = "green";
      }
  
      // Oodatud Tulemus
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function() {
      if (oodatudSelect.value !== "Oodatud tulemus 2") {
        oodatudSelect.style.borderColor = "red";
      } else {
-       oodatudSelect.style.borderColor = "";
+       oodatudSelect.style.borderColor = "green";
      }
  
      // Päris Tulemus
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function() {
      if (parisSelect.value !== "Päris tulemus 1") {
        parisSelect.style.borderColor = "red";
      } else {
-       parisSelect.style.borderColor = "";
+       parisSelect.style.borderColor = "green";
      }
    });
  });
